@@ -10,7 +10,6 @@
 if (!defined('ABSPATH')) exit;
 
 // Define constants
-// define('FMR_API_KEY', 'ac454ff29ef0434ca443a67c258f54eb');
 define('FMR_API_ENDPOINT', 'https://api.football-data.org/v4/');
 define('FMR_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('FMR_CACHE_EXPIRATION', apply_filters('fmr_cache_lifetime', 3600)); // 1 hour
